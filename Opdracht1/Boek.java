@@ -1,0 +1,84 @@
+
+/**
+ * class Boek - geef hier een beschrijving van deze class
+ *
+ * @author (jouw naam)
+ * @version (versie nummer of datum)
+ */
+public class Boek
+{
+    //fields
+    private String naam;
+    private String auteur;
+    private boolean hardcover;
+    private double prijs;
+    private int aantalKeerGelezen;
+    
+    //constructor
+    public Boek (String naam, String auteur, boolean hardcover, double prijs) 
+    {
+        this.naam = naam;
+        this.auteur = auteur;
+        this.hardcover = hardcover;
+        this.prijs = prijs;
+        int aantalKeerGelezen = 0;
+        
+    }
+    
+    //getters en setters
+    public String getNaam() 
+    {
+        return this.naam;
+    }
+    
+    public void setNaam(String naam) 
+    {
+        this.naam = naam;
+    }
+    
+    public String getAuteur() 
+    {
+        return this.auteur;
+    }
+    
+    public void setAuteur(String auteur) 
+    {
+        this.auteur = auteur;
+    }
+    
+    public boolean getHardcover() 
+    {
+        return this.hardcover;
+    }
+    
+    public void setHardcover(boolean hardcover) 
+    {
+        this.hardcover = hardcover;
+    }
+    
+    public double getPrijs() 
+    {
+        return this.prijs;
+    }
+    
+    public void setPrijs(double prijs)
+    {
+        this.prijs = prijs;
+    }
+    
+    public int getAantalKeerGelezen()
+    {
+        return this.aantalKeerGelezen;
+    }
+    
+    public void setAantalKeerGelezen(int aantalKeerGelezen)
+    {
+        this.aantalKeerGelezen = aantalKeerGelezen;
+    }
+    
+    //functions
+    public void lezen()
+    {
+        this.aantalKeerGelezen++;
+    }
+}

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Kat
+comment0.text=\r\n\ class\ Kat\ -\ geef\ hier\ een\ beschrijving\ van\ deze\ class\r\n\r\n\ @author\ (jouw\ naam)\r\n\ @version\ (versie\ nummer\ of\ datum)\r\n
+comment1.params=naam
+comment1.target=Kat(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNaam()
+comment3.params=naam
+comment3.target=void\ setNaam(java.lang.String)
+comment4.params=
+comment4.target=double\ getTevredenheidsniveau()
+comment5.params=
+comment5.target=void\ verhoogTevredenheidsniveau()
+numComments=6
