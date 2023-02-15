@@ -7,7 +7,7 @@
 public class Kat
 {
     private String naam;
-    private double tevredenheidsniveau;
+    public double tevredenheidsniveau;
     
     public Kat (String naam)
     {
@@ -28,29 +28,5 @@ public class Kat
     public double getTevredenheidsniveau()
     {
         return this.tevredenheidsniveau;
-    }
-    
-    public void verhoogTevredenheidsniveau()
-    {
-        if(this.tevredenheidsniveau < 5.0)
-        {
-            this.tevredenheidsniveau = tevredenheidsniveau + 0.3;
-        }
-        else
-        {
-            this.tevredenheidsniveau = 5.0;
-        }
-    }
-    
-    public boolean checkGelukkig()
-    {
-        if(this.tevredenheidsniveau > 3.5)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
     }
 }
