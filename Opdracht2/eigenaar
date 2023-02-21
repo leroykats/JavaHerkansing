@@ -31,31 +31,12 @@ public class Eigenaar
     
     public void Aaien()
     {
-        if(this.kat.tevredenheidsniveau <= 5.0)
-        {
-            this.kat.tevredenheidsniveau = kat.tevredenheidsniveau + 0.3;
-        }
-        else
-        {
-            this.kat.tevredenheidsniveau = 5.0;
-        }
-    }
-    
-    public double getTevredenheidsniveau()
-    {
-        return this.kat.tevredenheidsniveau;
+        this.kat.verhoogTevredenheidsniveau();
     }
     
     public boolean checkGelukkig()
     {
-        if(this.kat.tevredenheidsniveau > 3.5)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return this.kat.getGelukkig();
     }
     
     public String getKatNaam()
@@ -63,3 +44,4 @@ public class Eigenaar
         return this.kat.getNaam();
     }
 }
+
