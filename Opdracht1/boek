@@ -21,7 +21,6 @@ public class Boek
         this.hardcover = hardcover;
         this.prijs = prijs;
         int aantalKeerGelezen = 0;
-        
     }
     
     //getters en setters
